@@ -10,7 +10,9 @@
 
 	  	</head>  
 
-		<body>  
+		<body>
+			<h1>Math and Stuff</h1>
+		</br>
 
       	   <cfoutput>
 			<ol>

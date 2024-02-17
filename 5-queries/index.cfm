@@ -3,9 +3,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>Creating a Working Query</title>
     </head>
     <body>
+        <h1>Creating a Working Query</h1>
+    </br>
         <cfset pageController=createObject("query1") />
         <cfset allBooks = "#pageController.allBooks()#" />
         <cfdump var="#allBooks#" />

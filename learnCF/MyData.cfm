@@ -6,11 +6,13 @@
 
 	  <meta charset="utf-8" />
 
-	  	<title>My Date</title>
+	  	<title>My Data</title>
 
-	  	</head>  
+	  </head>  
 
 		<body>  
+            <h1>Data Types and Formatting</h1>
+            </br>
 
       	   <cfoutput>
             

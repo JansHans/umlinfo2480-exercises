@@ -6,12 +6,13 @@
 
 	  <meta charset="utf-8" />
 
-	  	<title>My Objects</title>
+	  	<title>Intro To Complex Variables: Objects/Structs</title>
 
 	  	</head>  
 
 		<body>
-
+			<h1>Intro To Complex Variables: Objects/Structs</h1>
+		</br>
 	<cfset myCrayon = {
 	   "color":"blue",
 	   "shape":"round",

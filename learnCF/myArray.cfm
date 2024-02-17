@@ -6,12 +6,12 @@
 
 	  <meta charset="utf-8" />
 
-	  	<title>My Arrays</title>
+	  	<title>Intro To Complex Variables: Arrays</title>
 
 	  	</head>  
 
 		<body>  
-            <cfset myArray = [
+            <!--- <cfset myArray = [
                 "Hello",
                 "my",
                 "dog",
@@ -22,8 +22,9 @@
 		<p>
             #myArray[1]# #myArray[5]#!
         </p>
-	</cfoutput>
-
+	</cfoutput> --->
+<h1>Intro To Complex Variables: Arrays</h1>
+</br>
 			<cfset book1 = [
 				"title":"Blue Shoes and Happiness",
 				"authors": [
