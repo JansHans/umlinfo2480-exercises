@@ -40,26 +40,31 @@
 
           <cfset book1 = [
             "title":"Blue Shoes and Happiness",
+            "quantity": 1,
             "cost": 5.05
                  ] />
     
           <cfset book2 = [
             "title":"Conservation Biology for All (Oxford Biology)",
+            "quantity": 1,
             "cost": 8.59
                  ] />
     
                  <cfset book3 = [
             "title":"Converstaional Arabic Quick and Easy (Egyptian Dialect)",
+            "quantity": 1,
             "cost": 2.49
                  ] />
     
           <cfset book4 = [
             "title":"Leading Lives That Matter: What We Should Do and Who We Should Be",
+            "quantity": 1,
             "cost": 52.95
                  ] />
 
           <cfset book5 = [
             "title":"Mindfulness & Character Strengths; A Practical Guide to Flourishing",
+            "quantity": 1,
             "cost": 74.50
                  ] />
     
@@ -69,16 +74,16 @@
           ] />
     
           <cfdump var = "#books#" />
-          <!--- <ul>
-            <cfoutput>
-              <cfloop array="#books#" item = "book">
-                <cfset totalBookCost=0>
-                <li>#book.title# costs $#book.cost#</li>
-                <cfloop array="#book.cost#" item= "book" index="i"></cfloop>
-                totalBookCost =+ cost
-              </cfloop>
-            </cfoutput>
-          </ul> --->
+          
+          <cfset totalBookCost = 0 />
+            
+              <cfquery name ="getCost" datasource="JeanetteAttiaHanna">
+                select sum(1*cost) as totalBookCost
+                from books
+                </cfquery>
+
+                Total: <cfoutput>#getCost.totalBookCost#</cfoutput>
+          
   
 	  	</body>
 
