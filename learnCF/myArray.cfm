@@ -25,7 +25,14 @@
 	</cfoutput> --->
 <h1>Intro To Complex Variables: Arrays</h1>
 </br>
-			<cfset book1 = [
+<div>
+	<h3>Exercise:</h3><br/>
+	<p>Exercise: Create a file named "myArray.cfm" in the exercises folder. 
+		Create complex objects using the same model you created on the last page and 
+		populate three more of them with three more books from the 10 Books Exercise. 
+		Put each of the objects in its own index in an Array and dump it out. 
+	</p>
+		<cfset book1 = [
 				"title":"Blue Shoes and Happiness",
 				"authors": [
 					{"FirstName": "Alexander", "LastName": "McCall Smith"},
@@ -37,7 +44,7 @@
 				"ISBN": "1400075718",
 				"weight": "0.475 lbs",
 				"pages": 240,
-             ] />
+        ] />
 
 			<cfset book2 = [
 				"title":"Conservation Biology for All (Oxford Biology)",
@@ -103,7 +110,7 @@
 				book1, book2, book3, book4, book5
 			] />
 
-			<cfdump var="#books#" />
+			<cfdump var="#books#" /><br/>
 			<ul>
 				<cfoutput>
 					<cfloop array="#books#" item="book">
@@ -119,7 +126,7 @@
 					</cfloop>
 				</cfoutput>
 			</ul>
-
+		</div>
 	  	</body>
 
 	  	</html>

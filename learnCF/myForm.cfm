@@ -13,6 +13,12 @@
 		<body>  
 			<h1>Form</h1>
 			</br>
+			<h6>Exercise #3:</h6>
+			<p>Create a page called myForm.cfm in the exercises folder 
+				(and don't forget to add it to your toc.cfm page). 
+				Use HTML to create a form which submits to the same page. 
+				Make your form with 5 inputs that coincide with the properties in your database. 
+				</p><br/>
 			<cfoutput>
 				<table>
 			<form action="#cgi.SCRIPT_NAME#?#cgi.QUERY_STRING#" method="post">
