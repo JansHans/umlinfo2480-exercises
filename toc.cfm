@@ -11,7 +11,7 @@
         <li  class="navitem"><a href="#cgi.SCRIPT_NAME#?p=learnCF/myForm">URLs and Forms</a></li>
         <li  class="navitem"><a href="#cgi.SCRIPT_NAME#?p=learnCF/MathFunction">Functions</a></li>
 		<li  class="navitem"><a href="#cgi.SCRIPT_NAME#?p=learnCF/dsource">Getting To Data</a></li>
-		<li class="navitem"><a href="#cgi.SCRIPT_NAME#?p=5-queries/index">Creating a Working Query</a></li>
+		<li class="navitem"><a href="#cgi.SCRIPT_NAME#?p=5-queries/index">5 queries or Creating a Working Query</a></li>
 		<li  class="navitem"><a href="#cgi.SCRIPT_NAME#?p=learnCF/component">Script and Components</a></li>
 	</ol>
 </cfoutput>
